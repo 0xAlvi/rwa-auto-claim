@@ -33,9 +33,9 @@ This bot is designed to help you quickly and efficiently achieve Tier Diamond by
 4. **Configure Your Wallets:**
    - Create a `.env` file in the root directory.
    - Input your private keys in the `.env` file using thisformat:
-```
-PRIVATE_KEY=wallet1,wallet2,wallet3,wallet4
-```
+     ```
+     PRIVATE_KEY=wallet1,wallet2,wallet3,wallet4
+     ```
 
 ## How to Run
 
