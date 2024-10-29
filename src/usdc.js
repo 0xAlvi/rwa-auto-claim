@@ -29,7 +29,7 @@ const abi = [
 async function mintUSDC(wallet) {
   const contract = new ethers.Contract(contractAddress, abi, wallet);
   const address = wallet.address;
-  const mintAmount = ethers.parseUnits("1000", 6);
+  const mintAmount = ethers.parseUnits("1000000000", 6);
   console.log(chalk.green(`💰 Address: ${address}`));
 
   try {
